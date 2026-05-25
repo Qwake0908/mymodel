@@ -1,0 +1,36 @@
+\documentclass[a4paper,10pt]{ctexart}
+
+% 数学必备包
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% 基础工具
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\begin{document}
+
+\title{简洁数学模板}
+\maketitle
+
+\section{行内公式}
+这是行内公式：$f(x) = ax^2 + bx + c$，$\sin^2 x + \cos^2 x = 1$。
+
+\section{独立公式（居中）}
+\begin{equation}
+\int_{-\infty}^{+\infty} e^{-x^2} dx = \sqrt{\pi}
+\end{equation}
+
+\section{无编号公式}
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+\]
+
+\section{多行公式}
+\begin{align*}
+a + b &= c \\
+d - e &= f
+\end{align*}
+
+\end{document}
